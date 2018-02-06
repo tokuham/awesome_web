@@ -53,7 +53,7 @@ async def excute(sql, args, autocommit = True):
                 await conn.rollback()
             raise
         return affected
-e
+
 
 def create_args_string(num):
     L = []
